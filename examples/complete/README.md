@@ -20,30 +20,6 @@ $ terraform apply
 
 Note that this example will create real resources in your Alibaba Cloud account, which may incur costs.
 
-## Variables
-
-| Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:--------:|
-| region | The Alibaba Cloud region where resources will be created | `string` | `"cn-hangzhou"` | no |
-| name | Name prefix for all resources | `string` | `"mysql-rds-example"` | no |
-| environment | Environment name (e.g., dev, staging, prod) | `string` | `"dev"` | no |
-| ecs_password | Password for ECS instance | `string` | n/a | yes |
-| db_username | Database username | `string` | `"wpuser"` | no |
-| db_password | Database password | `string` | n/a | yes |
-
-## Outputs
-
-| Name | Description |
-|------|-------------|
-| vpc_id | The ID of the VPC |
-| vswitch_id | The ID of the VSwitch |
-| ecs_instance_id | The ID of the ECS instance |
-| ecs_instance_public_ip | The public IP address of the ECS instance |
-| rds_instance_id | The ID of the RDS instance |
-| rds_instance_connection_string | The connection string of the RDS instance |
-| wordpress_url | The URL to access WordPress application |
-| database_connection_info | Database connection information for WordPress |
-
 ## Prerequisites
 
 Before running this example, ensure you have:

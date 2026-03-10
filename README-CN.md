@@ -4,7 +4,7 @@
 
 [English](https://github.com/alibabacloud-automation/terraform-alicloud-mysql-rds-wordpress/blob/main/README.md) | 简体中文
 
-该 Terraform 模块在阿里云上创建完整的 WordPress 托管解决方案，使用 MySQL RDS 作为数据库后端。该模块提供 VPC 网络、作为 Web 服务器的 ECS 实例、RDS MySQL 数据库，并自动安装和配置 WordPress 及其数据库连接。该解决方案适用于需要可靠、可扩展且经济高效的托管环境的中小型网站。有关数据库迁移和 WordPress 托管解决方案的更多信息，请参阅[数据库迁移解决方案](https://www.alibabacloud.com/solutions/database-migration)。
+该 Terraform 模块在阿里云上创建完整的 WordPress 托管解决方案，使用 MySQL RDS 作为数据库后端。该模块提供 VPC 网络、作为 Web 服务器的 ECS 实例、RDS MySQL 数据库，并自动安装和配置 WordPress 及其数据库连接。该解决方案适用于需要可靠、可扩展且经济高效的托管环境的中小型网站。有关数据库迁移和 WordPress 托管解决方案的更多信息，请参阅[自建数据库迁移到云数据库](https://www.aliyun.com/solution/tech-solution/mysql-rds)。
 
 ## 使用方法
 
@@ -79,7 +79,7 @@ module "mysql_rds_wordpress" {
 
 | Name | Version |
 |------|---------|
-| <a name="provider_alicloud"></a> [alicloud](#provider\_alicloud) | 1.272.1 |
+| <a name="provider_alicloud"></a> [alicloud](#provider\_alicloud) | >= 1.155.0 |
 
 ## Modules
 

@@ -4,7 +4,7 @@ Terraform Module for MySQL RDS WordPress Solution on Alibaba Cloud
 
 English | [简体中文](https://github.com/alibabacloud-automation/terraform-alicloud-mysql-rds-wordpress/blob/main/README-CN.md)
 
-This Terraform module creates a complete WordPress hosting solution on Alibaba Cloud using MySQL RDS as the database backend. The module provisions a VPC network, ECS instance as web server, RDS MySQL database, and automatically installs and configures WordPress with proper database connectivity. This solution is ideal for small to medium-sized websites requiring a reliable, scalable, and cost-effective hosting environment. For more information about database migration and WordPress hosting solutions, see [Database Migration Solutions](https://www.alibabacloud.com/solutions/database-migration).
+This Terraform module creates a complete WordPress hosting solution on Alibaba Cloud using MySQL RDS as the database backend. The module provisions a VPC network, ECS instance as web server, RDS MySQL database, and automatically installs and configures WordPress with proper database connectivity. This solution is ideal for small to medium-sized websites requiring a reliable, scalable, and cost-effective hosting environment. For more information about database migration and WordPress hosting solutions, see [Migrate Self-Built Database to Cloud Database](https://www.aliyun.com/solution/tech-solution/mysql-rds).
 
 ## Usage
 
@@ -79,7 +79,7 @@ module "mysql_rds_wordpress" {
 
 | Name | Version |
 |------|---------|
-| <a name="provider_alicloud"></a> [alicloud](#provider\_alicloud) | 1.272.1 |
+| <a name="provider_alicloud"></a> [alicloud](#provider\_alicloud) | >= 1.155.0 |
 
 ## Modules
 
